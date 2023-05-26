@@ -5,136 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Argumelar Pamungkas</h1>
-    <img src="./assets/images/profile.JPG" height="200" alt="profile" />
+    <section id="heros">
+      <div class="container header">
+        <div class="text-hello">
+          <h1>Argumelar Pamungkas</h1>
+          <p>I am Software Developer. Programming is my fashion.</p>
+        </div>
+        <div class="profile">
+          <div>
+            <img
+              class="profile-img"
+              src="./assets/images/profile.JPG"
+              alt="profile"
+            />
+          </div>
+          <div class="logo-user">
+            <a href="https://www.github.com/argumpamungkas">
+              <img src="./assets/logo/github.png" alt="logo github"
+            /></a>
 
-    <h2>Summary</h2>
-    <p>
-      I am a highly motivated software developer with a strong background in
-      Android and web application development. With a Bachelor's degree in
-      Informatics Engineering from STMIK IM College, internship experience as
-      well as online training, I continue to develop my abilities to grow
-      professionally. I am always motivated to learn new things in the world of
-      technology, especially in programming.
-    </p>
+            <a href="https://www.linkedin.com/in/argumpamungkas">
+              <img src="./assets/logo/linkedin.png" alt="logo linkedin"
+            /></a>
 
-    <hr />
+            <a href="https://www.instagram.com/argumpamungkas">
+              <img src="./assets/logo/ig.png" alt="logo ig"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Education</h2>
-    <ul>
-      <li>
-        Bachelor of Computer Science, Informatics Engineer - STMIK IM (2018 -
-        2022)
-      </li>
-    </ul>
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="card-project">
+          <div class="item-project">
+            <img src="./assets/portfolio/hris-app.png" alt="hris app" />
+            <div>
+              <h3>Hris App</h3>
+              <small>
+                The application contains employee absences, employee leave and
+                data from these employees.</small
+              >
+            </div>
+          </div>
+          <div class="item-project">
+            <img
+              src="./assets/portfolio/muslim-activity.png"
+              alt="muslim app"
+            />
+            <div>
+              <h3>Muslim Activity</h3>
+              <small>
+                Application to find out the prayer schedule. Prayers every day.
+                Equipped with the Al-Qur’an accompanied by letter descriptions
+                and audio letters.</small
+              >
+            </div>
+          </div>
+          <div class="item-project">
+            <img src="./assets/portfolio/mygram-api.png" alt="my gram api" />
+            <div>
+              <h3>My Gram API</h3>
+              <small>
+                Application to find out the prayer schedule. Prayers every day.
+                Equipped with the Al-Qur’an accompanied by letter descriptions
+                and audio letters.</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <hr />
-
-    <h2>Work Experience</h2>
-    <ul>
-      <li>
-        <h3>Junior Mobile Developer - Rastek.ID (Internship)</h3>
-        <p>Oct 2021 - Jan 2022</p>
-        <ul>
-          <li>
-            Create an android inventory application for company product data.
-          </li>
-          <li>
-            Tech Stack: JavaScript, Framework react native, AsyncStorage for
-            Local Database.
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <h3>Employee (Team) - Syarif Wedding Project</h3>
-        <p>2020 - Present</p>
-        <ul>
-          <li>
-            Arrange wedding events and prepared digital wedding and physical
-            invitation design.
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h2>Skills</h2>
-    <ul>
-      <li>
-        <h3>Programming Language:</h3>
-        <ul>
-          <li>Golang</li>
-          <li>Kotlin</li>
-        </ul>
-      </li>
-      <li>
-        <h3>Android:</h3>
-        <ul>
-          <li>Android Architecture Component</li>
-          <li>Local Data Persistence</li>
-          <li>MVVM</li>
-          <li>Koin Injection</li>
-          <li>Push Notification</li>
-        </ul>
-      </li>
-      <li>
-        <h3>Backend:</h3>
-        <ul>
-          <li>Gin Gonic Framework</li>
-          <li>Rest API</li>
-          <li>GORM</li>
-        </ul>
-      </li>
-      <li>
-        <h3>Others:</h3>
-        <ul>
-          <li>Github</li>
-          <li>Firebase</li>
-          <li>MySql</li>
-          <li>PostgreSql</li>
-          <li>Figma</li>
-          <li>Swagger</li>
-        </ul>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h2>Awards and Certifications</h2>
-    <ul>
-      <li>
-        Go Programming Secure your Go Apps - Digital Talent Scholarship
-        (Hacktiv8). (May 2023)
-      </li>
-      <li>
-        Go Programming Microservices Into the Specialization - Digital Talent
-        Scholarship (Hacktiv8). (May 2023)
-      </li>
-      <li>
-        Learn Introduction of Fundamental Go Programming - Digital Talent
-        Scholarship (Hacktiv8). (May 2023)
-      </li>
-      <li>
-        Learn Android Applications Fundamentals - Dicoding. (January 2023)
-      </li>
-      <li>Learn SOLID Programming Pronciples - Dicoding. (January 2023)</li>
-      <li>
-        Learn to Make Android Apps for Beginners - Dicoding. (September 2023)
-      </li>
-      <li>Get Started Programming with Kotlin - Dicoding. (August 2023)</li>
-    </ul>
-
-    <hr />
-
-    <h2>Other</h2>
-    <ul>
-      <li><a href="./hobbies.html">My Hobbies</a></li>
-      <li><a href="./contact.html">Contact Me</a></li>
-    </ul>
+    <section id="certification">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="card-certif">
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/scalable-webservice.jpg"
+              alt="scalable"
+            />
+            <h3>Digital Talent Scholarship</h3>
+            <p>Scalable Web Service with Golang</p>
+          </div>
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/go-rogramming-ecure.jpg"
+              alt="go secure"
+            />
+            <h3>Digitalent Hacktiv8</h3>
+            <p>Go Programming Secure your Go Apps</p>
+          </div>
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/go-programming.jpg"
+              alt="microservices"
+            />
+            <h3>Digitalent Hacktiv8</h3>
+            <p>Go Programming Microservices Into The Specialization</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card-certif">
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/go-introduction.jpg"
+              alt="go introduction"
+            />
+            <h3>Digitalent Hacktiv8</h3>
+            <p>Introduction of Fundamental Go programming</p>
+          </div>
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/belajar-fundamental-android.jpg"
+              alt="scalable"
+            />
+            <h3>Dicoding</h3>
+            <p>Learn Android Applications Fundamentals</p>
+          </div>
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/belajar-pemrograman-solid.jpg"
+              alt="scalable"
+            />
+            <h3>Dicoding</h3>
+            <p>Learn SOLID Programming Principles</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card-certif">
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/belajar-membuat-aplikasi-android-pemula.jpg"
+              alt="go introduction"
+            />
+            <h3>Dicoding</h3>
+            <p>Learn to Make Android Apps for Beginners</p>
+          </div>
+          <div class="item-certif">
+            <img
+              src="./assets/certificate/memulai-pemrograman-dengan-kotlin.jpg"
+              alt="scalable"
+            />
+            <h3>Dicoding</h3>
+            <p>Get Started Programming with Kotlin</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <small>© Argumelar Pamungkas. All rights reserved.</small>
